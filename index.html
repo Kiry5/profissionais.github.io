@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minha Página</title>
+    <style>
+        /* Estilos para o cabeçalho */
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilos para os profissionais */
+        .profissionais {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .profissional {
+            text-align: center;
+            width: calc(33.33% - 20px);
+            margin-bottom: 30px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .profissional img {
+            width: 200px;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .profissional h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .profissional p {
+            margin-bottom: 10px;
+        }
+
+        .profissional ul {
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .profissional li {
+            margin-bottom: 5px;
+        }
+
+        .back-button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #faa2b4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+            .profissional button.ver-trabalhos {
+            background-color: #303030;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .profissional {
+            background-color: #faa2b4;
+        }
+
+        .profissional img {
+            background-color: #303030;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            /* Estilos adicionais para dispositivos móveis com largura de tela até 600px */
+            header {
+                padding: 5px;
+            }
+            header img {
+                max-height: 30px;
+            }
+            header .links a {
+                margin-left: 5px;
+                font-size: 12px;
+            }
+            .hero-image {
+                height: 200px;
+                background-size: cover;
+            }
+            .hero-image h1 {
+                font-size: 24px;
+            }
+            .content {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body style="background-color: #303030;">
+    <header class="IMGP1">
+        <img src="imagemP1.jpg" style="width: 90%;">
+    </header>
+    <button class="back-button" onclick="history.back()"><a href="https://kiry5.github.io/Utopia.github.io/" class="column2">Voltar</a></button>
+    <main>
+        <section class="profissionais">
+            <div class="profissional">
+                <img src="imagemP2.jpg" alt="Profissional 1">
+                <h2>Bianca</h2>
+                <p>Designer profissional</p>
+                <p>Qualidades de Design:</p>
+                <button class="ver-trabalhos">Ver Trabalhos</button>
+            </div>
+
+            <!-- Repita o bloco abaixo para os outros profissionais -->
+            <div class="profissional">
+                <img src="imagemP3.jpg" alt="Profissional 2">
+                <h2>Rodrigo</h2>
+                <p>Designer iniciante</p>
+                <p>Qualidades de Design:</p>
+                <button class="ver-trabalhos">Ver Trabalhos</button>
+            </div>
+            <!-- Repita o bloco acima para os outros profissionais -->
+            <div class="profissional">
+                <img src="imagemP4.jpg" alt="Profissional 2">
+                <h2>Samanta</h2>
+                <p>Designer profissional</p>
+                <p>Qualidades de Design:</p>
+                <button class="ver-trabalhos">Ver Trabalhos</button>
+            </div>
+            <!-- Repita o bloco acima para os outros profissionais -->
+            <div class="profissional">
+                <img src="imagemP5.jpg" alt="Profissional 2">
+                <h2>Diego</h2>
+                <p>Designer profissional</p>
+                <p>Qualidades de Design:</p>
+                <button class="ver-trabalhos">Ver Trabalhos</button>
+            </div>
+            <!-- Repita o bloco acima para os outros profissionais -->
+            <div class="profissional">
+                <img src="imagemP6.jpg" alt="Profissional 2">
+                <h2>Cristina</h2>
+                <p>Designer iniciante</p>
+                <p>Qualidades de Design:</p>
+                <button class="ver-trabalhos">Ver Trabalhos</button>
+            </div>
+            <!-- Repita o bloco acima para os outros profissionais -->
+            <div class="profissional">
+                <img src="imagemP7.jpg" alt="Profissional 2">
+                <h2>Caio</h2>
+                <p>Designer profissional</p>
+                <p>Qualidades de Design:</p>
+                <button class="ver-trabalhos">Ver Trabalhos</button>
+            </div>
+            <!-- Repita o bloco acima para os outros profissionais -->
+        </section>
+    </main>
+</body>
+</html>
